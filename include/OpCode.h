@@ -1,7 +1,7 @@
 #pragma once
 #include <cstdint>
 
-// These are the raw byte instructions your Virtual Machine will execute
+// These are the raw byte instructions Virtual Machine will execute
 enum class OpCode : uint8_t {
     // Math & Stack
     OP_PUSH, OP_ADD, OP_SUB,
@@ -21,7 +21,7 @@ enum class OpCode : uint8_t {
     OP_PUSH_TRUE, 
     OP_PUSH_FALSE,
     
-    // System
+    
     OP_PRINT, 
     OP_HALT
 };
